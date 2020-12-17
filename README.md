@@ -25,6 +25,10 @@ It includes:
 - The !time function
     Which provides you the current time
 
+# V. 1.1
+In this version:
+- Resolved potential bugs with the cities and deleted esclamation point in front of the same (in the !città command)
+
 © 1tsN1c0
     
 
