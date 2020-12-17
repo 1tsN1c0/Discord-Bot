@@ -106,9 +106,8 @@ async def on_message(message):
 
     elif message.content == "!città":
         embed = discord.Embed()
-        embed.add_field(name="Città", value="""!Roma, !Napoli, !Venezia, !Milano, !Aosta, !Genova, !Torino, !Bologna, 
-        !Trieste, !Trento, !Firenze, !Perugia, !l'Aquila, !Potenza, !Catanzaro, !Ancona, !Campobasso, !Bari, !Cagliari,
-        !Palermo""")
+        embed.add_field(name="Città", value="""Roma, Napoli, Venezia, Milano, Aosta, Genova, Torino, Bologna, Trieste, 
+        Trento, Firenze, Perugia, l'Aquila, Potenza, Catanzaro, Ancona, Campobasso, Bari, Cagliari, Palermo""")
         await message.channel.send(content=None, embed=embed)
 
     elif message.content == "!users":
