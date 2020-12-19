@@ -69,6 +69,8 @@ async def on_message(message):
         embed.add_field(name="!hpsoundtrack", value="Riproduci su Google Chrome la colonna sonora di Harry Potter")
         embed.add_field(name="!users", value="Numero totale di utenti nel server")
         embed.add_field(name="!time", value="L'orario attuale!")
+        embed.add_field(name="!random 10, 100, 1000", value="Generare un numero casuale")
+        embed.add_field(name="!dado", value="Simulare l'estrazione di un numero dal dado (da 1 a 6)")
         await message.channel.send(content=None, embed=embed)
 
     elif message.content == "!github":
