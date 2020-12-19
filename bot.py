@@ -2,6 +2,7 @@
 import discord
 import asyncio
 import time
+import random
 from datetime import datetime
 from selenium import webdriver
 
@@ -120,6 +121,26 @@ async def on_message(message):
         current_time = now.strftime("%H:%M:%S")
         embed = discord.Embed()
         embed.add_field(name="Orario", value=f"""L'ora èttuale è {current_time}""")
+        await message.channel.send(content=None, embed=embed)
+            
+    elif message.content == "!random 10":
+        embed = discord.Embed(title="Generatore random di numeri")
+        embed.add_field(name="Result:", value=f"""{random.randint(1, 10)}""")
+        await message.channel.send(content=None, embed=embed)
+
+    elif message.content == "!random 100":
+        embed = discord.Embed(title="Generatore random di numeri")
+        embed.add_field(name="Result:", value=f"""{random.randint(1, 100)}""")
+        await message.channel.send(content=None, embed=embed)
+
+    elif message.content == "!random 1000":
+        embed = discord.Embed(title="Generatore random di numeri")
+        embed.add_field(name="Result:", value=f"""{random.randint(1, 1000)}""")
+        await message.channel.send(content=None, embed=embed)
+
+    elif message.content == "!dado":
+        embed = discord.Embed(title="Estrazione del dado")
+        embed.add_field(name="Result", value=f"""{random.randint(1, 6)}""")
         await message.channel.send(content=None, embed=embed)
 
     else:
