@@ -39,6 +39,7 @@ In this pre-version:
     These new functionalites allow you to generate numbers between 1 and 10, 1 and 100 and 1 and 1000
 - Added command !dado
     This new command allows you to generate a random number between 1 and 6, like a game dice
+- Added to command !help the functionalites !random 10, 100, 1000 and !dado
 
 © 1tsN1c0
     
