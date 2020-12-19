@@ -26,8 +26,19 @@ It includes:
     Which provides you the current time
 
 # V. 1.0.1 (pre-release 1.1)
-In this version:
+17/12/2020
+
+In this pre-version:
 - Resolved potential bugs with the cities and deleted esclamation point in front of the same (in the !città command)
+
+# V. 1.0.2 (pre-release 1.1)
+19/12/2020
+
+In this pre-version:
+- Added command !random 10, !random 100 and !random 1000
+    These new functionalites allow you to generate numbers between 1 and 10, 1 and 100 and 1 and 1000
+- Added command !dado
+    This new command allows you to generate a random number between 1 and 6, like a game dice
 
 © 1tsN1c0
     
