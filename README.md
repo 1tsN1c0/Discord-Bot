@@ -2,7 +2,7 @@
 A Discord Bot created using Python and the Discord library
 
 # Changelog
-# V. 1.0
+### V. 1.0
 Relased on 17/12/2020
 This is the first version of my bot, pubblished on the 17 of December 2020
 It includes:
@@ -26,13 +26,13 @@ It includes:
 - The !time function
     Which provides you the current time
 
-# V. 1.0.1 (pre-release 1.1)
+### V. 1.0.1 (pre-release 1.1)
 Relased on 17/12/2020
 
 In this pre-version:
 - Resolved potential bugs with the cities and deleted esclamation point in front of the same (in the !città command)
 
-# V. 1.0.2 (pre-release 1.1)
+### V. 1.0.2 (pre-release 1.1)
 Relased on 19/12/2020
 
 In this pre-version:
@@ -42,7 +42,7 @@ In this pre-version:
     This new command allows you to generate a random number between 1 and 6, like a game dice
 - Added to command !help the functionalites !random 10, 100, 1000 and !dado
 
-# V. 1.0.3 (pre-relase 1.1)
+### V. 1.0.3 (pre-relase 1.1)
 Relased on 20/12/2020
 
 In this pre-version:
